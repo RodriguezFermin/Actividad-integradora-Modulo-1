@@ -12,7 +12,6 @@
     <h1 style="background-color: lightblue;">PHP y Mysql Inicial - UTN</h1>
     <h2>Actividad Integradora Modulo 1</h2>
     <h2 style="background-color: lightblue;">Alumno: Fermín Rodríguez</h2>
-    <h3>Goleadores de la Scaloneta:</h3>
     <br>    
     <p>
     <?php 
@@ -21,6 +20,8 @@
         $goles = [25, 21, 2];
         $asistencias = [9, 4, 6];
         $iterador = [0, 1, 2];
+        define ("SELECCION", "GOLEADORES DE LA SCALONETA");
+        echo "<h3>", SELECCION, "</h3>";
         foreach ($iterador as $i){
             echo "<ul> 
             <li>Nombre: ", $jugadores[$i]," </li>
