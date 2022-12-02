@@ -1,4 +1,4 @@
-# Ejercicio-obligatorio-Modulo-1
+# Actividad-integradora-obligatoria-Modulo-1
 PHP y MySQL nivel Inicial - UTN
 
 Desarrollar una estructura en HTML y CSS integrada con PHP.
